@@ -20,6 +20,8 @@ public class StringComparisonAndEquality {
 		System.out.println("equals(): " + s1.equals(s2));
 		System.out.println("equalsIgnoreCase(): " + s3.equalsIgnoreCase(s2));
 		System.out.println("compareTo(): " + s1.compareTo(s2));
+		System.out.println(s1 == s2);
+		System.out.println(s2.equals(s3));
 	}
 
 }
