@@ -20,24 +20,25 @@ public class Lab176_DC {
 
 	}
 }
-	class Car {
-		String name;
-		int year;
-		String model;
 
-		// DC
-		Car() {
-			name = "Unknown Car";
-			year = 1991;
-			model = "XXX";
-		}
+class Car {
+	String name;
+	int year;
+	String model;
 
+	// DC
+	Car() {
+		name = "Unknown Car";
+		year = 1991;
+		model = "XXX";
 	}
 
-class Baby1{
-    String name;
+}
 
-    Baby1(){
-        name = "Gugu";
-    }
+class Baby1 {
+	String name;
+
+	Baby1() {
+		name = "Gugu";
+	}
 }
